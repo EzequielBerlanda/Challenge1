@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+
+}
+main .Primera {
+    display: flex;
+    flex-direction: row;
+}
+main .Primera .yourResult{
+    height: 293px;
+    width: 240px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: #fff;
+    border-radius: 30px;
+}
+main .Primera .yourResult .great{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+main .Primera .yourResult .great .titleGreat{
+    font-size: 20px;
+}
+main .Primera .yourResult .great .textGreat{
+    font-size: 15px;
+    
+}
+main .Primera .yourResult .circulo{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main .Primera .yourResult .circulo .numGrande{
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+main .Primera .yourResult .circulo p{
+    font-size: 10px;
+    
+}
+main .Primera .Summary {
+    padding-left: 30px;
+}
+main .Primera .Summary .resultados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+main .Primera .Summary .titleSummary{
+    padding: 20px 10px;
+}
+
+main .Primera .Summary .resultados .reaction{
+    background-color: hsl(0, 100%, 90%);
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+main .Primera .Summary .resultados .reaction .titleR{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+main .Primera .Summary .resultados .reaction .calificacion{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+main .Primera .Summary .resultados .reaction .calificacion .number{
+    font-weight: 800;
+}
+
+
+main .Primera .Summary .resultados .memory{
+    background-color: hsl(39, 100%, 90%);
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+main .Primera .Summary .resultados .memory .titleM{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(164, 164, 2);
+}
+main .Primera .Summary .resultados .memory .calificacion{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+main .Primera .Summary .resultados .memory .calificacion .number{
+    font-weight: 800;
+}
+
+
+
+main .Primera .Summary .resultados .verbal{
+    background-color: hsl(166, 100%, 90%);
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    gap: 93px;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+main .Primera .Summary .resultados .verbal .titleVe{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+main .Primera .Summary .resultados .verbal .calificacion{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+main .Primera .Summary .resultados .verbal .calificacion .number{
+    font-weight: 800;
+}
+
+
+main .Primera .Summary .resultados .visual{
+    background-color: hsl(234, 85%, 90%);
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+main .Primera .Summary .resultados .visual .titleVi{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+main .Primera .Summary .resultados .visual .calificacion{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+main .Primera .Summary .resultados .visual .calificacion .number{
+    font-weight: 800;
+}
+
+main .Primera .Summary .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+main .Primera .Summary .button button{
+    padding: 10px 101px;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+}
+main .Primera .Summary .button button:hover{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+    main .Primera{
+        display: flex;
+        flex-direction: column;
+    }
+    main .Primera .yourResult {
+        border-radius: 0px 0px 30px 30px;
+    }
+    main .Primera .Summary{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+    }
+    main .Primera .Summary .titleSummary {
+        display: flex;
+        align-self: start;
+        padding: 20px 20px;
+    }
+    main .Primera .Summary .resultados {
+        padding: 1px 20px;
+    }
+    
+}
